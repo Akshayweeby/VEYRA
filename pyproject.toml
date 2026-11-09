@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools==75.8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "veyra"
+version = "0.1.0"
+description = "A local-first Windows hand-gesture controller."
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+license = { text = "Proprietary - see LICENSE when added" }
+authors = [{ name = "VEYRA contributors" }]
+dependencies = [
+    "PySide6==6.8.2",
+    "opencv-python==4.10.0.84",
+]
+
+[project.scripts]
+veyra = "veyra.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+

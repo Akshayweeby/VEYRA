@@ -1,0 +1,10 @@
+# VEYRA Codex Pack
+
+Files:
+- `README_FIRST.md`
+- `PROJECT_PLAN.md`
+- `GESTURE_AND_STATE_SPEC.md`
+- `TECHNICAL_RESEARCH.md`
+- `CODEX_BUILD_GUIDE.md`
+
+Read `README_FIRST.md` first.

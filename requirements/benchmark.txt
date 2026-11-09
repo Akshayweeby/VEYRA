@@ -1,0 +1,3 @@
+# Phase 3 placeholder. Benchmark dependencies are intentionally not installed in Phase 0.
+# Add only after benchmark inputs, engine adapters, and licenses are approved.
+
